@@ -16,7 +16,7 @@ git commit -m "mensaje"=registra los cambios
 git commit --amend= cambia el texto del anterior commit "solo hacer en repositrio de mi pc"
 git log= muestra los commits que ya hice
 git reset --soft HEAD~1 =deshacer el ultimo commit
-git branch version-nombre =crea una rama nueva
+git branch nombre =crea una rama nueva
 git branch= ver rama creada
-git checkout version-nombre= ir a la rama creada
+git checkout nombre= ir a la rama creada
 @
