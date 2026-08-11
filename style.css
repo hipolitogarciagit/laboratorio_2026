@@ -1,5 +1,16 @@
-.site-header{
-    width: 20px;
+#chocolates {
+    font-size: 30px;
+    color: blueviolet;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+img {
+    border-radius: 20%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: blue;
+}
 
+.site-header {
+    
+}

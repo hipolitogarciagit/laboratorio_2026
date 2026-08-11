@@ -1,11 +1,10 @@
-/* ============================================ */
+
 /* SCRIPT PRINCIPAL - Distribuidora de Golosinas */
 /* Sistema de Carrito de Compras */
-/* ============================================ */
 
-/* ============================================ */
+
+
 /* VARIABLES GLOBALES DEL CARRITO */
-/* ============================================ */
 
 // CARRITO - Array que almacena los productos agregados al carrito de compras
 let carrito = [];
@@ -25,9 +24,8 @@ const productos = [
     { id: 11, nombre: "Snack dulce", precio: 5000 }
 ];
 
-/* ============================================ */
+
 /* FUNCION: Inicializar el sitio */
-/* ============================================ */
 
 /**
  * INICIAR - Se ejecuta cuando se carga la pagina
@@ -48,9 +46,8 @@ function iniciar() {
     });
 }
 
-/* ============================================ */
+
 /* FUNCION: Agregar producto al carrito */
-/* ============================================ */
 
 /**
  * AGREGAR PRODUCTO AL CARRITO - Añade un producto al carrito de compras
@@ -76,9 +73,7 @@ function agregarProductoAlCarrito(idProducto) {
     console.log(`"${producto.nombre}" agregado al carrito`);
 }
 
-/* ============================================ */
 /* FUNCION: Actualizar visualizacion del carrito */
-/* ============================================ */
 
 /**
  * ACTUALIZAR CARRITO - Actualiza la visualización del carrito en la pagina
@@ -114,9 +109,8 @@ function actualizarCarrito() {
     calcularTotal();
 }
 
-/* ============================================ */
+
 /* FUNCIÓN: Calcular total del carrito */
-/* ============================================ */
 
 /**
  * CALCULAR TOTAL - Suma todos los precios de los productos en el carrito
@@ -142,9 +136,8 @@ function vaciarCarrito() {
 }
 
     
-/* ============================================ */
 /* EVENTO: Cargar la pagina */
-/* ============================================ */
+
 
 // CARGAR - Ejecuta la funcion iniciar cuando se carga el DOM
 document.addEventListener("DOMContentLoaded", iniciar);
