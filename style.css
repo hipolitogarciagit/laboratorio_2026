@@ -1,16 +1,14 @@
-#chocolates {
-    font-size: 30px;
-    color: blueviolet;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+
 
 img {
     border-radius: 20%;
     border-width: 5px;
     border-style: solid;
     border-color: blue;
-    width: 150px;
-    
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
 
 }
 
@@ -23,4 +21,55 @@ img {
     border-bottom-color: blue;
     border-bottom-left-radius: 4px;
     
+}
+
+/* Contenedor centrado (alineado con la barra de navegación) */
+.header-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+/* Centrar el contenido principal de la página */
+.page-main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* Centrar texto, imágenes y botones dentro de cada tarjeta de producto */
+.product-card {
+    text-align: center;
+    padding: 1rem;
+}
+
+.products-grid {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button {
+    display: inline-block;
+    margin: 0.6rem auto 0 auto;
+    padding: 0.45rem 0.9rem;
+    border-radius: 6px;
+    border: 1px solid #333;
+    background: #f0f0f0;
+    cursor: pointer;
+}
+
+/* Centrar el texto hero */
+.hero-text {
+    text-align: center;
+}
+
+/* Pie de página centrado */
+.site-footer {
+    text-align: center;
+    padding: 1rem;
 }

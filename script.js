@@ -11,17 +11,17 @@ let carrito = [];
 
 // PRODUCTOS - Base de datos de productos disponibles en la tienda
 const productos = [
-    { id: 1, nombre: "Caramelos de menta", precio: 5000 },
-    { id: 2, nombre: "Caramelos de fruta", precio: 4000 },
-    { id: 3, nombre: "Chocolate amargo", precio: 5000 },
-    { id: 4, nombre: "Chocolate con leche", precio: 8000 },
-    { id: 5, nombre: "Chocolate con maní", precio: 7000 },
-    { id: 6, nombre: "Galletas de avena", precio: 6000 },
-    { id: 7, nombre: "Galletas rellenas", precio: 7000 },
-    { id: 8, nombre: "Galletas pepas", precio: 6500 },
-    { id: 9, nombre: "Snack salado", precio: 4000 },
-    { id: 10, nombre: "Snack dulce", precio: 4500 },
-    { id: 11, nombre: "Snack dulce", precio: 5000 }
+    { id: 1, nombre: "One Million", precio: 15000 },
+    { id: 2, nombre: "Jean Paul Geautter", precio: 24000 },
+    { id: 3, nombre: "Sauvage Dior", precio: 25000 },
+    { id: 4, nombre: "Kaiak Oceano", precio: 18000 },
+    { id: 5, nombre: "Homem", precio: 17000 },
+    { id: 6, nombre: "Essencial", precio: 36000 },
+    { id: 7, nombre: "Juan Pablo Gutierres", precio: 7000 },
+    { id: 8, nombre: "Whatsapp perfume", precio: 6500 },
+    { id: 9, nombre: "Amanza Trabestis", precio: 4000 },
+    { id: 10, nombre: "", precio:  0},
+    { id: 11, nombre: "", precio: 0 }
 ];
 
 
