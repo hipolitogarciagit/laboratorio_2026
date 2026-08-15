@@ -2,25 +2,24 @@
 
 img {
     border-radius: 20%;
-    border-width: 5px;
+    border-width: 2px;
     border-style: solid;
-    border-color: blue;
+    border-color: black;
     width: 300px;
     display: block;
     margin: 0 auto;
     object-fit: cover;
 
 }
-
-.site-header {
-    color: blueviolet;
+body {
+    background-color:  blanchedalmond;
 }
-.main-nav{
-    
-    border-bottom-style: solid;
-    border-bottom-color: blue;
-    border-bottom-left-radius: 4px;
-    
+.product-card img {
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 20px;
+
 }
 
 /* Contenedor centrado (alineado con la barra de navegación) */
@@ -59,7 +58,7 @@ button {
     padding: 0.45rem 0.9rem;
     border-radius: 6px;
     border: 1px solid #333;
-    background: #f0f0f0;
+    background: #503b3b6d;
     cursor: pointer;
 }
 
@@ -72,4 +71,9 @@ button {
 .site-footer {
     text-align: center;
     padding: 1rem;
+}
+
+p {
+    color: crimson;
+
 }
